@@ -1,14 +1,10 @@
 <!--pages/post/post.wxml-->
 <view>
-    <swiper vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">
-        <swiper-item >
-            <image src="/images/wx.png" />
-        </swiper-item>
-        <swiper-item>
-            <image src="/images/vr.png" />
-        </swiper-item>
-        <swiper-item>
-            <image src="/images/iqiyi.png" />
-        </swiper-item>
+    <swiper vertical="{{false}}" indicator-dots="true" autoplay="true" interval="2500">
+        <block class="item" wx:for="{{bannerList}}" wx:for-item="item">
+            <swiper-item>
+                <image src="{{item.src}}" />
+            </swiper-item>
+        </block>
     </swiper>
 </view>
