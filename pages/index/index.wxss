@@ -13,8 +13,7 @@ page {
 
 .motto {
     display: block;
-    margin: 0 auto;
-    width: 310rpx;
+    text-align: center;
 }
 
 .start {
