@@ -1,4 +1,7 @@
 <!--pages/post/post.wxml-->
+<import src="/template/post-item-template.wxml" />
+
+
 <view>
     <swiper vertical="{{false}}" indicator-dots="true" autoplay="true" interval="2500">
         <block class="item" wx:for="{{bannerList}}" wx:for-item="item">
@@ -7,4 +10,14 @@
             </swiper-item>
         </block>
     </swiper>
+
+
+    <block wx:for="{{[1,2,3]}}" wx:for-item="body" wx:for-index="idx">
+        <template is="postItemTemp"/>
+    </block>
+
+
+
+
+
 </view>

@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="home-container">
-    <image class="avatar" src="/images/avatar/1.png"></image>
+    <image class="avatar" src="/images/avatar/1.png"/>
     <text class="motto">{{motto}}</text>
     <text class="start" bindtap="onStartTap">{{start}}</text>
 </view>

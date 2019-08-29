@@ -1,0 +1,21 @@
+.post-bar {
+    /* margin-top: 10rpx;
+    margin-bottom: 20rpx;
+    margin-left: 10px; */
+    font-size: 32px;
+    background-color: lightblue;
+    border: black solid 1px;
+}
+
+.post-bar .post-avatar {
+    width: 50rpx;
+    height: 50rpx;
+    /* vertical-align: middle; */
+    background-color: yellow;
+}
+
+.post-bar .post-date {
+    font-size: 16px;
+    vertical-align: middle;
+    background-color: lightgreen;
+}
