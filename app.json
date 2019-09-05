@@ -2,7 +2,8 @@
     "pages": [
         "pages/post/post",
         "pages/index/index",
-        "pages/logs/logs"
+        "pages/logs/logs",
+        "pages/post-detail/post-detail"
     ],
     "window": {
         "backgroundTextStyle": "dark",
