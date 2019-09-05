@@ -12,8 +12,8 @@
     </swiper>
 
 
-    <block wx:for="{{[1,2,3]}}" wx:for-item="body" wx:for-index="idx">
-        <template is="postItemTemp"/>
+    <block wx:for="{{postList}}" wx:for-item="body" wx:for-index="idx">
+        <template is="postItemTemp" data="{{...body}}"/>
     </block>
 
 

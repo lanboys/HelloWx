@@ -1,18 +1,18 @@
 <template name="postItemTemp">
     <view class="post-container">
         <view class="post-top-bar">
-            <image class="post-avatar" src="/images/avatar/1.png" />
-            <text class="post-date">Sep 18 2016</text>
+            <image class="post-avatar" src="{{avatar}}" />
+            <text class="post-date">{{date}}</text>
         </view>
-        <text class="post-title">正是虾肥蟹壮时</text>
-        <image class="post-image" src="/images/post/crab.png" />
-        <text class="post-text">菊黄蟹正肥，品尝秋之味。徐志摩把,“看初花的荻芦”和“到楼外楼吃蟹”,并列为秋天来杭州不能错过的风雅之事；用林妹妹的话讲是“螯封嫩玉双双满
+        <text class="post-title">{{title}}</text>
+        <image class="post-image" src="{{imgSrc}}" />
+        <text class="post-text">{{content}}
         </text>
         <view class="post-bottom-bar">
             <image class="post-like-avatar" src="/images/icon/chat.png" />
-            <text class="post-like-text">11</text>
+            <text class="post-like-text">{{collection}}</text>
             <image class="post-read-avatar" src="/images/icon/view.png" />
-            <text class="post-read-text">14</text>
+            <text class="post-read-text">{{reading}}</text>
         </view>
     </view>
 </template>
