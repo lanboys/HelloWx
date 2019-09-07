@@ -1,7 +1,5 @@
-<!--pages/post/post.wxml-->
+<!-- pages/post/post.wxml -->
 <import src="/template/post-item-template.wxml" />
-
-
 <view>
     <swiper vertical="{{false}}" indicator-dots="true" autoplay="true" interval="2500">
         <block class="item" wx:for="{{bannerList}}" wx:for-item="item">
@@ -11,13 +9,9 @@
         </block>
     </swiper>
 
-
     <block wx:for="{{postList}}" wx:for-item="body" wx:for-index="idx">
-        <template is="postItemTemp" data="{{...body}}"/>
+        <view catchtap="onPostTap" data-post-id="{{body.postId}}" data-post-author="{{body.author}}">
+            <template is="postItemTemp" data="{{...body}}" />
+        </view>
     </block>
-
-
-
-
-
 </view>

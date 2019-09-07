@@ -1,1 +1,65 @@
 /* pages/post-detail/post-detail.wxss */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.head-image {
+    width: 100%;
+    height: 460rpx;
+    vertical-align: middle;
+}
+
+.author-container {
+    margin: 10rpx;
+    flex-direction: row;
+}
+
+.author-container .author-image {
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+    margin: 10rpx;
+}
+
+.author-container .author {
+    vertical-align: middle;
+    margin: 10rpx;
+}
+
+.author-container .const-text {
+    vertical-align: middle;
+    margin: 10rpx;
+}
+
+.author-container .date {
+    vertical-align: middle;
+    margin: 10rpx;
+}
+
+.title {
+    vertical-align: middle;
+    font-size: 34rpx;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 2px;
+    margin: 30rpx;
+}
+
+.divide-container {
+    height: 120rpx;
+    background-color: rgb(219, 38, 150);
+}
+
+.divide-container .divide-grade {
+    width: 60rpx;
+    height: 60rpx;
+    vertical-align: middle;
+}
+
+.divide-container .divide-share {
+    height: 60rpx;
+    width: 60rpx;
+    vertical-align: middle;
+
+}

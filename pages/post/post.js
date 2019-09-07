@@ -19,6 +19,12 @@ Page({
 
         ]
     },
+    onPostTap: function (event) {
+        console.log(event.currentTarget.dataset);
+        wx.navigateTo({
+            url: "/pages/post-detail/post-detail"
+        })
+    },
 
     /**
      * 生命周期函数--监听页面加载
