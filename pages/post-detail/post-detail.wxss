@@ -47,19 +47,33 @@
 }
 
 .divide-container {
-    height: 120rpx;
-    background-color: rgb(219, 38, 150);
+
 }
 
 .divide-container .divide-grade {
-    width: 60rpx;
-    height: 60rpx;
+    width: 90rpx;
+    height: 90rpx;
     vertical-align: middle;
+    float: right;
 }
 
 .divide-container .divide-share {
-    height: 60rpx;
-    width: 60rpx;
-    vertical-align: middle;
+    overflow: none;
+    float: right;
+    height: 90rpx;
+    width: 90rpx;
+    margin: 0 30rpx;
+}
 
+.divide{
+    height: 1rpx;
+    background-color: #e5e5e5;
+    margin : 45rpx;
+}
+
+.detail{
+    letter-spacing: 2px;
+    color: #333;
+    line-height: 44rpx;
+    margin: 0 30rpx;
 }
