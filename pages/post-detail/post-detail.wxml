@@ -8,7 +8,7 @@
         <text class="date">24小时前</text>
     </view>
     <text class="title">正式霞飞</text>
-    <view class="divide-container">
+    <view class="divide-container  ">
         <image class="divide-share" src="/images/icon/share.png" />
         <image class="divide-grade" src="/images/icon/collection.png" />
         <view class="divide"></view>

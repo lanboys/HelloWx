@@ -1,7 +1,7 @@
 /* pages/post-detail/post-detail.wxss */
 .container {
-    display: flex;
-    flex-direction: column;
+
+
 }
 
 .head-image {
@@ -12,7 +12,6 @@
 
 .author-container {
     margin: 10rpx;
-    flex-direction: row;
 }
 
 .author-container .author-image {
@@ -47,7 +46,7 @@
 }
 
 .divide-container {
-
+overflow: hidden;
 }
 
 .divide-container .divide-grade {
@@ -58,7 +57,7 @@
 }
 
 .divide-container .divide-share {
-    overflow: none;
+
     float: right;
     height: 90rpx;
     width: 90rpx;
@@ -66,12 +65,13 @@
 }
 
 .divide{
-    height: 1rpx;
+    height: 2rpx;
     background-color: #e5e5e5;
     margin : 45rpx;
 }
 
 .detail{
+    display: inline-block;
     letter-spacing: 2px;
     color: #333;
     line-height: 44rpx;
