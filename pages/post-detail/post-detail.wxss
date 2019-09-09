@@ -1,7 +1,6 @@
 /* pages/post-detail/post-detail.wxss */
 .container {
 
-
 }
 
 .head-image {
@@ -37,16 +36,16 @@
 }
 
 .title {
-    vertical-align: middle;
     font-size: 34rpx;
     font-weight: 600;
     color: #333;
     letter-spacing: 2px;
     margin: 30rpx;
+    display: block;
 }
 
 .divide-container {
-overflow: hidden;
+    overflow: hidden;
 }
 
 .divide-container .divide-grade {
@@ -57,7 +56,6 @@ overflow: hidden;
 }
 
 .divide-container .divide-share {
-
     float: right;
     height: 90rpx;
     width: 90rpx;
@@ -71,9 +69,9 @@ overflow: hidden;
 }
 
 .detail{
-    display: inline-block;
+    display:  block;
     letter-spacing: 2px;
     color: #333;
     line-height: 44rpx;
-    margin: 0 30rpx;
+    margin: 30rpx 30rpx;
 }

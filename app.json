@@ -1,9 +1,9 @@
 {
     "pages": [
-        "pages/post-detail/post-detail",
         "pages/post/post",
         "pages/index/index",
-        "pages/logs/logs"
+        "pages/logs/logs",
+        "pages/post-detail/post-detail"
 
     ],
     "window": {
